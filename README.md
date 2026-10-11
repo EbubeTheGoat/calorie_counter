@@ -40,11 +40,3 @@ If the server is unreachable the page shows "Offline mode", uses the built-in ta
 estimates still work. Meal changes are not saved while offline. Custom containers created offline
 are kept in the browser and uploaded the next time the server is reachable.
 
-## Limits you should know about
-
-- **Single user, no authentication.** Anyone who can reach the server can edit your data.
-  Keep it on localhost or behind a login before putting it on the internet.
-- Built-in kcal and density values are rough averages, not verified data.
-- The error band (volume 15%, density 15%, kcal/100 g 20%, combined to about 29%) is an
-  assumption, editable in the page, not a measured accuracy.
-- Plate estimates rely on your guess of heap height, which a top-down photo cannot measure.
